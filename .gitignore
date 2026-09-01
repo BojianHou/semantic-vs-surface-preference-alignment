@@ -1,0 +1,21 @@
+# environments
+.venv/
+__pycache__/
+*.pyc
+
+# large / regenerable artifacts
+checkpoints/
+results/
+logs/
+wandb/
+data/decomposed_v2/shards/
+data/decomposed_v2/out/
+data/decomposed_v2_train/shards/
+data/decomposed_v2_train/out/
+*.pt
+*.safetensors
+
+# editor / agent local state
+.claude/
+.loop*/
+.DS_Store

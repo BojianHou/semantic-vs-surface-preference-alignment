@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: >-
+  Does preference alignment learn meaning or surface form?
+  A controlled counterfactual benchmark
+message: If you use this benchmark or these findings, please cite it.
+authors:
+  - family-names: Hou
+    given-names: Bojian
+repository-code: https://github.com/REPLACE-ME/semantic-vs-surface-preference-alignment
+abstract: >-
+  A controlled study of whether preference-optimized language models prefer
+  responses for their meaning or their surface form. Introduces a counterfactual
+  benchmark with token-length-matched syntax variants and a wording-noise floor,
+  and reports that across 19 preference-optimization methods training raises
+  sensitivity to meaning without reducing sensitivity to meaning-preserving
+  surface changes.
