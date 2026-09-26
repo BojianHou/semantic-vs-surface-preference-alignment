@@ -193,31 +193,8 @@ scripts/
   v2_shard_status.py         resumable generation state
   run_round9.sh, eval_all_on_v2.sh, ...
 
-reports/
-  POST_AUDIT_FINDINGS.md     ← start here: the corrected results, in full
-  AUDIT_2026-08-29.md        the measurement critique that prompted the rebuild
-  REPORT.md                  master log of all 9 rounds (§9.12 = post-audit)
-  FOLLOWUP_TASKS_ROUND{1..9}.md   frozen per-round digests
-
 data/, metrics/              the benchmark and every CSV behind the tables above
 ```
 
-**Reading order:** `reports/POST_AUDIT_FINDINGS.md` → `reports/AUDIT_2026-08-29.md` →
-`reports/REPORT.md` §9.12.
-
 ---
 
-## Status and caveats
-
-This is a research log, not a library. Findings are honest about their limits:
-
-- **One base model** (Qwen2.5-1.5B-Instruct) and **one domain** (TL;DR summarization). Whether
-  the ~2.37 ceiling is a property of this model is untested.
-- The counterfactuals' meaning preservation is mechanically but not semantically validated.
-- The sample-efficiency result is confounded and provisional.
-- Pre-audit sections of `REPORT.md` (§§9.1–9.11) use the superseded measurement; they are kept
-  for provenance with correction notes, not because their rankings stand.
-
-## License
-
-Not yet chosen — add a `LICENSE` file before making this public.
